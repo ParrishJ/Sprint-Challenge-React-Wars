@@ -1,11 +1,6 @@
-h2 {
+.description {
     color: white;
-}
-
-p {
-    color: white;
-}
-
-ul {
-    color: white;
+    border: 1px solid white;
+    width: 50%;
+    text-align: center;
 }
