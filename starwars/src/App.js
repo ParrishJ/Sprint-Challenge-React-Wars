@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Charlist from './components/Charlist'
 import './App.css';
 
 class App extends Component {
@@ -12,7 +13,7 @@ class App extends Component {
   componentDidMount() {
     this.getCharacters('https://swapi.co/api/people/');
   }
-
+  
   getCharacters = URL => {
     // feel free to research what this code is doing.
     // At a high level we are calling an API to fetch some starwars data from the open web.
@@ -28,14 +29,16 @@ class App extends Component {
         throw new Error(err);
       });
   };
-
+ 
   render() {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <Charlist charAttrs={this.state.starwarsChars} />
       </div>
     );
   }
 }
+
 
 export default App;

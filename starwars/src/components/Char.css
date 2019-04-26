@@ -1,0 +1,9 @@
+.description {
+    color: white;
+    background-color: #992c2c;
+    border: 1px solid white;
+    width: 30%;
+    text-align: left;
+    padding: 0 0 1rem 1rem;
+    margin: 0 auto;
+}
