@@ -3,5 +3,6 @@
     background-color: #992c2c;
     border: 1px solid white;
     width: 50%;
-    text-align: center;
+    text-align: left;
+    padding: 0 0 1rem 1rem;
 }

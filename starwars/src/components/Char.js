@@ -5,22 +5,24 @@ const Char = props => {
     return (
         <div className="description">
             <h2>{props.charProps.name}</h2>
-            <p> 
+            <ul>
+            <li> 
                 <strong>Height: </strong>
                 {props.charProps.height}
-            </p>
-            <p> 
+            </li>
+            <li> 
                 <strong>Mass: </strong>
                 {props.charProps.mass}
-            </p>
-            <p> 
+            </li>
+            <li> 
                 <strong>Hair Color: </strong>
                 {props.charProps.hair_color}
-            </p>
-            <p> 
+            </li>
+            <li> 
                 <strong>Skin Color: </strong>
                 {props.charProps.skin_color}
-            </p>
+            </li>
+            </ul>
         </div>
     )
 }

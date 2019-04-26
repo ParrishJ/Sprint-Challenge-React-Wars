@@ -6,7 +6,7 @@ function Charlist (props) {
     <ul>
         {props.charAttrs.map(charProps => {
           return(
-               <Char charProps={charProps} />
+               <Char charProps={charProps} key={Math.random()} />
           )
         })}
     </ul>
